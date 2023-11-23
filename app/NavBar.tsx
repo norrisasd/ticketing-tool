@@ -9,7 +9,7 @@ const NavBar = () => {
   const currentPath = usePathname();
   const links = [
     { label: "Dashboard", path: "/" },
-    { label: "Issues", path: "/issues" },
+    { label: "Tickets", path: "/tickets" },
     { label: "My Task", path: "/my-task" },
     { label: "Help", path: "/help" },
   ];
